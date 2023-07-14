@@ -34,13 +34,17 @@ namespace GF
             }
         }
 
-        public void AddState<S>() where S: FsmState<T>
+        public void AddState<S>() where S : FsmState<T>
         {
             var stateType = typeof(S);
             FsmState<T> state = Activator.CreateInstance(stateType) as FsmState<T>;
+            if (!stateDic.ContainsKey(stateType))
+            {
+                stateDic.Add(stateType, state);
+            }
         }
 
-        public FsmState<T> GetState<S>() where S: FsmState<T>
+        public FsmState<T> GetState<S>() where S : FsmState<T>
         {
             FsmState<T> state = null;
             stateDic.TryGetValue(typeof(S), out state);
@@ -55,7 +59,7 @@ namespace GF
             }
         }
 
-        public void ChangeState<S>() where S: FsmState<T>
+        public void ChangeState<S>() where S : FsmState<T>
         {
             Type stateType = typeof(S);
             if (currState == null)
@@ -64,7 +68,7 @@ namespace GF
                 currState.OnEnter();
                 return;
             }
-            
+
             if (currState.GetType() == stateType)
             {
                 return;
@@ -84,7 +88,7 @@ namespace GF
         {
             if (paramDic.TryGetValue(key, out var value))
             {
-                return (S)value;
+                return (S) value;
             }
 
             return default(S);
@@ -104,6 +108,7 @@ namespace GF
                     state.Value.OnDestroy();
                 }
             }
+
             stateDic.Clear();
             paramDic.Clear();
         }
