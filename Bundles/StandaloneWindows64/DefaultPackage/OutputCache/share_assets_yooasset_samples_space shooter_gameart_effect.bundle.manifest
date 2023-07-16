@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 2388886896
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 33fc0e507b62cb8f6c3f4eb89688e056
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2ac4353984f9d013b83e89048e1ecdd0
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/YooAsset/Samples/Space Shooter/GameArt/Effect/part_jet_core_dff.tif
+- Assets/YooAsset/Samples/Space Shooter/GameArt/Effect/part_enginePulse_dff.tif
+- Assets/YooAsset/Samples/Space Shooter/GameArt/Effect/part_jet_core_mat.mat
+- Assets/YooAsset/Samples/Space Shooter/GameArt/Effect/part_jet_flare_dff.tif
+- Assets/YooAsset/Samples/Space Shooter/GameArt/Effect/fx_enemyShip_engines_mat.mat
+- Assets/YooAsset/Samples/Space Shooter/GameArt/Effect/part_jet_flare_mat.mat
+Dependencies: []

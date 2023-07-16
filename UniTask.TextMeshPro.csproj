@@ -41,8 +41,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\YooAsset\Samples\UniTask Sample\UniTask\Runtime\External\TextMeshPro\TextMeshProAsyncExtensions.InputField.cs" />
      <Compile Include="Assets\YooAsset\Samples\UniTask Sample\UniTask\Runtime\External\TextMeshPro\TextMeshProAsyncExtensions.cs" />
+     <Compile Include="Assets\YooAsset\Samples\UniTask Sample\UniTask\Runtime\External\TextMeshPro\TextMeshProAsyncExtensions.InputField.cs" />
      <None Include="Assets\YooAsset\Samples\UniTask Sample\UniTask\Runtime\External\TextMeshPro\TextMeshProAsyncExtensions.InputField.tt" />
      <None Include="Assets\YooAsset\Samples\UniTask Sample\UniTask\Runtime\External\TextMeshPro\UniTask.TextMeshPro.asmdef" />
      <Reference Include="UnityEngine">

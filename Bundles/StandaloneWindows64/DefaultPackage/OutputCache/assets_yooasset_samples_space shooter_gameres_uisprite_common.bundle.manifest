@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 110305706
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e575faa73985ced0d5a6325c3429c1c1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 12da798fbf3a6c0c342cc56cb1a6efdf
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/buttons/button1.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/arrows/plus.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/window/window_transparent.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/bars/bar_blue.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/buttons/rocket.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/arrows/arrow_left.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/buttons/button_pushed.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/arrows/arrow1_right.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/buttons/pause.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/bars/bar_blue1.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/arrows/back_arrow.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/buttons/bullets.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/arrows/long_arrow_left.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/arrows/arrow1_left.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/bars/progress_bar_background.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/bars/progress_bar.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/buttons/button_active.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/window/window_transparent1.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/arrows/arrow_right.png
+- Assets/YooAsset/Samples/Space Shooter/GameRes/UISprite/common/arrows/long_arrow_right.png
+Dependencies: []

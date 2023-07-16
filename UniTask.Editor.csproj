@@ -41,9 +41,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\YooAsset\Samples\UniTask Sample\UniTask\Editor\UniTaskTrackerTreeView.cs" />
-     <Compile Include="Assets\YooAsset\Samples\UniTask Sample\UniTask\Editor\SplitterGUILayout.cs" />
      <Compile Include="Assets\YooAsset\Samples\UniTask Sample\UniTask\Editor\UniTaskTrackerWindow.cs" />
+     <Compile Include="Assets\YooAsset\Samples\UniTask Sample\UniTask\Editor\SplitterGUILayout.cs" />
+     <Compile Include="Assets\YooAsset\Samples\UniTask Sample\UniTask\Editor\UniTaskTrackerTreeView.cs" />
      <None Include="Assets\YooAsset\Samples\UniTask Sample\UniTask\Editor\UniTask.Editor.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Soft\2020.3.40f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

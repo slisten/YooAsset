@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 582216724
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1b121c9a93cd3561cc3e499f40d4be63
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 017c21cca412a23068ad673f22041729
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 014c1f9b87e247446bd7d558f8bf143e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/YooAsset/Samples/Space Shooter/GameRes/Effect/Explosions/explosion_player.prefab
+- Assets/YooAsset/Samples/Space Shooter/GameRes/Effect/Explosions/explosion_asteroid.prefab
+- Assets/YooAsset/Samples/Space Shooter/GameRes/Effect/Explosions/explosion_enemy.prefab
+Dependencies:
+- E:/UG/YooAsset/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_yooasset_samples_space
+  shooter_gameres_audio.bundle

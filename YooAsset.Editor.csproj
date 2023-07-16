@@ -88,8 +88,8 @@
      <Compile Include="Assets\YooAsset\Editor\AssetBundleReporter\VisualViewers\ReporterSummaryViewer.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskCreatePackage.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\ECopyBuildinFileOption.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildReport\ReportAssetInfo.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\DefaultRules\DefaultFilterRule.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildReport\ReportAssetInfo.cs" />
      <Compile Include="Assets\YooAsset\Editor\EditorTools.cs" />
      <Compile Include="Assets\YooAsset\Editor\UxmlLoader.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\CollectRules\IPackRule.cs" />

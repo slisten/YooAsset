@@ -41,7 +41,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\BuildTest.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Editor\Encryption.cs" />
      <Compile Include="Assets\YooAsset\Samples\Extension Sample\Scripts\Editor\PackageCompareWindow.cs" />
      <Compile Include="Assets\YooAsset\Samples\Extension Sample\Scripts\Editor\CustomPackRule.cs" />
@@ -667,6 +666,9 @@
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEditor.CacheServer">
+     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
@@ -682,11 +684,14 @@
      <Reference Include="Unity.TextMeshPro">
      <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.ScriptableBuildPipeline">
+     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
      <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
@@ -694,14 +699,8 @@
      <Reference Include="UnityEngine.UI">
      <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEditor.CacheServer">
-     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ScriptableBuildPipeline">
-     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -721,17 +720,25 @@
       <Project>{2bf22cc4-0300-bc7d-87be-26e8d07b112c}</Project>
       <Name>UniTask.Addressables</Name>
     </ProjectReference>
-    <ProjectReference Include="UniFramework.Tween.csproj">
-      <Project>{d3121bf4-42e7-2904-55d7-472c6422bdd0}</Project>
-      <Name>UniFramework.Tween</Name>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{5b17b744-4798-fab5-4a43-ae560c93b9ae}</Project>
+      <Name>UniTask</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.DOTween.csproj">
       <Project>{052f383c-fc3c-5c18-c147-1588a2ebcc89}</Project>
       <Name>UniTask.DOTween</Name>
     </ProjectReference>
-    <ProjectReference Include="UniTask.csproj">
-      <Project>{5b17b744-4798-fab5-4a43-ae560c93b9ae}</Project>
-      <Name>UniTask</Name>
+    <ProjectReference Include="UniTask.TextMeshPro.csproj">
+      <Project>{c0d54634-a755-7a5d-1b5e-03ef3340911e}</Project>
+      <Name>UniTask.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Linq.csproj">
+      <Project>{3ea2c5dc-58ef-6e05-55a4-c7942d5fffa3}</Project>
+      <Name>UniTask.Linq</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniFramework.Tween.csproj">
+      <Project>{d3121bf4-42e7-2904-55d7-472c6422bdd0}</Project>
+      <Name>UniFramework.Tween</Name>
     </ProjectReference>
     <ProjectReference Include="UniFramework.Animation.csproj">
       <Project>{3d657c11-da89-3a98-d47b-325b3db4e8be}</Project>
@@ -740,10 +747,6 @@
     <ProjectReference Include="UniFramework.Pooling.csproj">
       <Project>{d356b91e-622c-9770-aee2-8316720d523f}</Project>
       <Name>UniFramework.Pooling</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.Linq.csproj">
-      <Project>{3ea2c5dc-58ef-6e05-55a4-c7942d5fffa3}</Project>
-      <Name>UniTask.Linq</Name>
     </ProjectReference>
     <ProjectReference Include="UniFramework.Singleton.csproj">
       <Project>{e7fbc550-ded0-88c6-2042-5f48cf4388d3}</Project>
@@ -760,10 +763,6 @@
     <ProjectReference Include="UniFramework.Event.csproj">
       <Project>{f7d167e2-acef-0f82-47b8-b8c5eb7b5635}</Project>
       <Name>UniFramework.Event</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.TextMeshPro.csproj">
-      <Project>{c0d54634-a755-7a5d-1b5e-03ef3340911e}</Project>
-      <Name>UniTask.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="UniFramework.Window.csproj">
       <Project>{ac03ad87-e61c-46e9-3beb-9a6bdb975cde}</Project>
