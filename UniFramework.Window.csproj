@@ -42,10 +42,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniWindow\Runtime\UIWindow.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniWindow\Runtime\UniWindowDriver.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniWindow\Runtime\UniLogger.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniWindow\Runtime\WindowAttribute.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniWindow\Runtime\OpenWindowOperation.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniWindow\Runtime\UniWindowDriver.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniWindow\Runtime\UniWindow.cs" />
      <None Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniWindow\Runtime\UniFramework.Window.asmdef" />
      <Reference Include="UnityEngine">

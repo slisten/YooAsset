@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 1285231445
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a27dd9eb14908f7733d7faf19ba26d1c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8961442f8e73accc71bd79c64688f837
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e5ba86773fc23a1439c87dc672b38cf7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7463d1aebfecc674e8944381219af118, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Bundles/Prefab/Enemy.prefab
+- Assets/Bundles/Prefab/Player.prefab
+Dependencies:
+- E:/UG/YooAsset/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_bundles_material.bundle

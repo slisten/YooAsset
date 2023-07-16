@@ -41,8 +41,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\YooAsset\Samples\UniTask Sample\UniTask\Runtime\External\Addressables\AddressablesAsyncExtensions.cs" />
-     <None Include="Assets\YooAsset\Samples\UniTask Sample\UniTask\Runtime\External\Addressables\UniTask.Addressables.asmdef" />
+     <Compile Include="Assets\Plugins\UniTask\Runtime\External\Addressables\AddressablesAsyncExtensions.cs" />
+     <None Include="Assets\Plugins\UniTask\Runtime\External\Addressables\UniTask.Addressables.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Soft\2020.3.40f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>

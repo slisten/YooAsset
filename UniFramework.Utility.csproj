@@ -42,10 +42,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniUtility\Runtime\StringFormat.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniUtility\Runtime\StringConvert.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniUtility\Runtime\BitMask32.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniUtility\Runtime\UniTimer.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniUtility\Runtime\BitMask32.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniUtility\Runtime\BitMask64.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniUtility\Runtime\StringConvert.cs" />
      <None Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniUtility\Runtime\UniFramework.Utility.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Soft\2020.3.40f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

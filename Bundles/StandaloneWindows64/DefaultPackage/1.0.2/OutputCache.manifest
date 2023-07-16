@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3489531633
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets_bundles_material.bundle
+      Dependencies:
+        Dependency_0: unityshaders.bundle
+    Info_1:
+      Name: assets_bundles_prefab.bundle
+      Dependencies:
+        Dependency_0: assets_bundles_material.bundle
+    Info_2:
+      Name: assets_bundles_texture.bundle
+      Dependencies: {}
+    Info_3:
+      Name: assets_bundles_scene.bundle
+      Dependencies: {}
+    Info_4:
+      Name: unityshaders.bundle
+      Dependencies: {}

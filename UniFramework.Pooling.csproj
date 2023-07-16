@@ -41,13 +41,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniPooling\Runtime\GameObjectPool.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniPooling\Runtime\CreatePoolOperation.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniPooling\Runtime\UniPooling.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniPooling\Runtime\UniPoolingDriver.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniPooling\Runtime\SpawnHandle.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniPooling\Runtime\Spawner.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniPooling\Runtime\UniLogger.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniPooling\Runtime\GameObjectPool.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniPooling\Runtime\SpawnHandle.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniPooling\Runtime\CreatePoolOperation.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniPooling\Runtime\UniPoolingDriver.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniPooling\Runtime\UniPooling.cs" />
      <None Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniPooling\Runtime\UniFramework.Pooling.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Soft\2020.3.40f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

@@ -59,13 +59,13 @@ namespace GF
             }
         }
 
-        public void ChangeState<S>() where S : FsmState<T>
+        public void ChangeState<S>(params object[] args) where S : FsmState<T>
         {
             Type stateType = typeof(S);
             if (currState == null)
             {
                 currState = stateDic[stateType];
-                currState.OnEnter();
+                currState.OnEnter(args);
                 return;
             }
 
@@ -76,7 +76,7 @@ namespace GF
 
             currState.OnLeave();
             currState = stateDic[stateType];
-            currState.OnEnter();
+            currState.OnEnter(args);
         }
 
         public void SetData<S>(string key, S value)

@@ -41,9 +41,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniEvent\Runtime\EventGroup.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniEvent\Runtime\IEventMessage.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniEvent\Runtime\UniEvent.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniEvent\Runtime\EventGroup.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniEvent\Runtime\UniEventDriver.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniEvent\Runtime\UniLogger.cs" />
      <None Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniEvent\Runtime\UniFramework.Event.asmdef" />

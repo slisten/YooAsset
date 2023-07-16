@@ -1,0 +1,138 @@
+{
+    "FileVersion": "1.4.17",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 4,
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "1.0.2",
+    "AssetList": [
+        {
+            "Address": "New Material 1",
+            "AssetPath": "Assets/Bundles/Material/New Material 1.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependIDs": [
+                4
+            ]
+        },
+        {
+            "Address": "New Material",
+            "AssetPath": "Assets/Bundles/Material/New Material.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "Enemy",
+            "AssetPath": "Assets/Bundles/Prefab/Enemy.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependIDs": [
+                0,
+                4
+            ]
+        },
+        {
+            "Address": "Player",
+            "AssetPath": "Assets/Bundles/Prefab/Player.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependIDs": [
+                0
+            ]
+        },
+        {
+            "Address": "BG",
+            "AssetPath": "Assets/Bundles/Texture/BG.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "Empty",
+            "AssetPath": "Assets/Bundles/Scene/Empty.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "Game",
+            "AssetPath": "Assets/Bundles/Scene/Game.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "NewUnlitShader",
+            "AssetPath": "Assets/Bundles/Shader/NewUnlitShader.shader",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4,
+            "DependIDs": []
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_bundles_material.bundle",
+            "FileHash": "39696cdb2d2f5fa2bae67196fd1e2920",
+            "FileCRC": "9f36e295",
+            "FileSize": 43511,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                1
+            ]
+        },
+        {
+            "BundleName": "assets_bundles_prefab.bundle",
+            "FileHash": "fcace539341d546be73ea9eef6ed2843",
+            "FileCRC": "591df056",
+            "FileSize": 4205,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_bundles_texture.bundle",
+            "FileHash": "7f58de146933889489e2db138e1fc95e",
+            "FileCRC": "6b04ec1e",
+            "FileSize": 5093428,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_bundles_scene.bundle",
+            "FileHash": "0788b5a13b02d64acc382bf1925fc18c",
+            "FileCRC": "0c156840",
+            "FileSize": 117067,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "FileHash": "e54d0b36ce40301135967973d52e2a32",
+            "FileCRC": "0cd8dfd5",
+            "FileSize": 16393,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                0
+            ]
+        }
+    ]
+}

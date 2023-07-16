@@ -41,19 +41,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\Package\INetPackageEncoder.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\TCP\TcpChannel.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\Package\INetPackageDecoder.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\Package\DefaultNetPackageDecoder.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\ThreadSyncContext.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\UniLogger.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\Package\DefaultNetPackage.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\UniNetworkDriver.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\UniNetwork.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\TCP\TcpClient.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\Package\DefaultNetPackageEncoder.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\RingBuffer.cs" />
      <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\Package\INetPackage.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\ThreadSyncContext.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\Package\INetPackageEncoder.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\Package\INetPackageDecoder.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\UniLogger.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\UniNetwork.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\Package\DefaultNetPackageEncoder.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\TCP\TcpChannel.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\Package\DefaultNetPackageDecoder.cs" />
+     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\Package\DefaultNetPackage.cs" />
      <None Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\UniFramework\UniNetwork\Runtime\UniFramework.Network.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Soft\2020.3.40f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

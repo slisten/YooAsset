@@ -41,58 +41,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\GameLogic\FsmNode\FsmInitGame.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\Boot.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\Behaviour\BhvApplicationQuit.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\EventDefine\UserEventDefine.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\BattleLogic\Entity\EntityEnemy.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\StreamingAssetsHelper\BuildinFileManifest.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\PatchLogic\FsmNode\FsmDownloadFiles.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\BattleLogic\Entity\EntityPlayer.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\BattleLogic\Entity\EntityEffect.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\PatchLogic\FsmNode\FsmDownloadOver.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\PatchLogic\FileStream.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\EventDefine\BattleEventDefine.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Extension Sample\Scripts\Runtime\AssetOperationHandleExtension.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\UIWindow\UIAboutWindow.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\EventDefine\SceneEventDefine.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\GameLogic\GameManager.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\UIWindow\UIHomeWindow.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\PatchLogic\PatchWindow.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\Behaviour\BhvBackgroundScroller.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\BattleLogic\Entity\EntityAsteroid.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\PatchLogic\FsmNode\FsmUpdateVersion.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\StreamingAssetsHelper\StreamingAssetsHelperOLD.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\UIWindow\UILoadingWindow.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\PatchLogic\FsmNode\FsmPatchPrepare.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\PatchLogic\PatchManager.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\PatchLogic\FsmNode\FsmCreateDownloader.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\BattleLogic\BattleRoom.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Extension Sample\Scripts\Runtime\GameObjectAssetReference.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\PatchLogic\FsmNode\FsmPatchDone.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Extension Sample\Scripts\Runtime\LoadAssetsByTagOperation.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\PatchLogic\FsmNode\FsmInitialize.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\UIWindow\UIBattleWindow.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\GameLogic\FsmNode\FsmSceneBattle.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\GameLogic\FsmNode\FsmSceneHome.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\BattleLogic\Entity\EntityBullet.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\PatchLogic\FsmNode\FsmUpdateManifest.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\PatchLogic\FsmNode\FsmClearCache.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\GameScript\Runtime\EventDefine\PatchEventDefine.cs" />
-     <Compile Include="Assets\YooAsset\Samples\Space Shooter\ThirdParty\StreamingAssetsHelper\StreamingAssetsHelper.cs" />
+     <Compile Include="Assets\GF\Scripts\Procedure\GameProcedure.cs" />
      <Compile Include="Assets\GF\Scripts\Fsm\Fsm.cs" />
-     <Compile Include="Assets\GF\Scripts\Fsm\FsmManager.cs" />
+     <Compile Include="Assets\GF\Scripts\Log\DefaultLogger.cs" />
+     <Compile Include="Assets\GF\Scripts\Procedure\LaunchProcedure.cs" />
+     <Compile Include="Assets\GF\Scripts\Log\GLog.cs" />
      <Compile Include="Assets\GF\Scripts\Fsm\FsmState.cs" />
      <Compile Include="Assets\GF\Scripts\Game.cs" />
-     <None Include="Assets\YooAsset\Samples\Space Shooter\AssetSetting\AssetBundleCollectorConfig.xml" />
-     <None Include="Assets\YooAsset\Samples\UniTask Sample\UniTask\package.json" />
-     <None Include="Assets\YooAsset\Samples\Space Shooter\GameArt\Shader\MyUnlitShader.shader" />
-     <None Include="Assets\Bundles\ShaderTste.shader" />
+     <Compile Include="Assets\Game\PlayerController.cs" />
+     <Compile Include="Assets\Game\EnemyTrigger.cs" />
+     <Compile Include="Assets\GF\Scripts\Log\ILogger.cs" />
+     <Compile Include="Assets\GF\Scripts\Procedure\EmptyProcedure.cs" />
      <None Include="Assets\YooAsset\package.json" />
-     <None Include="Assets\YooAsset\Samples\Space Shooter\GameArt\ShaderVariants\MyShaderVariants.json" />
-     <None Include="Assets\YooAsset\Samples\Space Shooter\GameRes\Config\about.txt" />
-     <None Include="Assets\YooAsset\Samples\Space Shooter\GameArt\Shader\StandardMobile.shader" />
-     <None Include="Assets\YooAsset\Samples\Space Shooter\GameArt\Shader\StandardMobile.cginc" />
+     <None Include="Assets\Bundles\Shader\NewUnlitShader.shader" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Soft\2020.3.40f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -678,6 +639,9 @@
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEditor.CacheServer">
+     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
@@ -693,11 +657,14 @@
      <Reference Include="Unity.TextMeshPro">
      <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.ScriptableBuildPipeline">
+     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
      <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
@@ -705,80 +672,38 @@
      <Reference Include="UnityEngine.UI">
      <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEditor.CacheServer">
-     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ScriptableBuildPipeline">
-     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>E:\UG\YooAsset\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="UniTask.TextMeshPro.csproj">
+      <Project>{c0d54634-a755-7a5d-1b5e-03ef3340911e}</Project>
+      <Name>UniTask.TextMeshPro</Name>
+    </ProjectReference>
     <ProjectReference Include="YooAsset.Editor.csproj">
       <Project>{b733e832-2fa2-70b6-4ce7-f61c5b18eca0}</Project>
       <Name>YooAsset.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="YooAsset.csproj">
-      <Project>{e8c3eaf5-7a92-d8cf-c82a-498f96b23683}</Project>
-      <Name>YooAsset</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.Addressables.csproj">
-      <Project>{2bf22cc4-0300-bc7d-87be-26e8d07b112c}</Project>
-      <Name>UniTask.Addressables</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniFramework.Tween.csproj">
-      <Project>{d3121bf4-42e7-2904-55d7-472c6422bdd0}</Project>
-      <Name>UniFramework.Tween</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.DOTween.csproj">
       <Project>{052f383c-fc3c-5c18-c147-1588a2ebcc89}</Project>
       <Name>UniTask.DOTween</Name>
     </ProjectReference>
+    <ProjectReference Include="YooAsset.csproj">
+      <Project>{e8c3eaf5-7a92-d8cf-c82a-498f96b23683}</Project>
+      <Name>YooAsset</Name>
+    </ProjectReference>
     <ProjectReference Include="UniTask.csproj">
       <Project>{5b17b744-4798-fab5-4a43-ae560c93b9ae}</Project>
       <Name>UniTask</Name>
     </ProjectReference>
-    <ProjectReference Include="UniFramework.Animation.csproj">
-      <Project>{3d657c11-da89-3a98-d47b-325b3db4e8be}</Project>
-      <Name>UniFramework.Animation</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniFramework.Pooling.csproj">
-      <Project>{d356b91e-622c-9770-aee2-8316720d523f}</Project>
-      <Name>UniFramework.Pooling</Name>
+    <ProjectReference Include="UniTask.Addressables.csproj">
+      <Project>{2bf22cc4-0300-bc7d-87be-26e8d07b112c}</Project>
+      <Name>UniTask.Addressables</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.Linq.csproj">
       <Project>{3ea2c5dc-58ef-6e05-55a4-c7942d5fffa3}</Project>
       <Name>UniTask.Linq</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniFramework.Singleton.csproj">
-      <Project>{e7fbc550-ded0-88c6-2042-5f48cf4388d3}</Project>
-      <Name>UniFramework.Singleton</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniFramework.Machine.csproj">
-      <Project>{7ba89669-23dc-92c2-b8b5-2510cb86e94a}</Project>
-      <Name>UniFramework.Machine</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniFramework.Network.csproj">
-      <Project>{c28b439e-ffdf-eacd-0f52-33dd9b2ab2bf}</Project>
-      <Name>UniFramework.Network</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniFramework.Event.csproj">
-      <Project>{f7d167e2-acef-0f82-47b8-b8c5eb7b5635}</Project>
-      <Name>UniFramework.Event</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.TextMeshPro.csproj">
-      <Project>{c0d54634-a755-7a5d-1b5e-03ef3340911e}</Project>
-      <Name>UniTask.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniFramework.Window.csproj">
-      <Project>{ac03ad87-e61c-46e9-3beb-9a6bdb975cde}</Project>
-      <Name>UniFramework.Window</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniFramework.Utility.csproj">
-      <Project>{c7b67e48-4c7e-a9b5-e48b-e01b8c170bba}</Project>
-      <Name>UniFramework.Utility</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
