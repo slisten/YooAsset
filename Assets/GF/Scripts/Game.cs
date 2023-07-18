@@ -6,6 +6,7 @@ namespace GF
 {
     public class Game: MonoBehaviour
     {
+        public ILogger Logger;
         public EPlayMode PlayMode;
         public static Fsm<Game> Procedure;
         private void Awake()
